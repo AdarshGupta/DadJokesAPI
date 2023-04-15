@@ -8,44 +8,24 @@ namespace DadJokesAPI.Service
 {
     public class DadJokesApiService : IDadJokesApiService
     {
-        private static readonly HttpClient httpClient;
+        private readonly IHTTPRequestService _httpRequestService;
         private readonly ILogger<DadJokesApiService> _logger;
         private int MAX_JOKES_PER_PAGE = 30; // Limit set by the "icanhazdadjoke" API service
         private string DAD_JOKE_API_FETCH_ENDPOINT = "/";
         private string DAD_JOKE_API_SEARCH_ENDPOINT = "/search";
 
-        static DadJokesApiService()
-        {
-            httpClient = new HttpClient()
-            {
-                BaseAddress = new Uri("https://icanhazdadjoke.com/")
-            };
-            httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-            httpClient.DefaultRequestHeaders.UserAgent.ParseAdd("Dad Jokes API (https://adarshgupta.github.io/)");
-        }
-
-        public DadJokesApiService(ILogger<DadJokesApiService> logger)
+        public DadJokesApiService(ILogger<DadJokesApiService> logger, IHTTPRequestService httpRequestService)
         {
             _logger = logger;
+            _httpRequestService = httpRequestService;
         }
 
         async Task<JokeDTO> IDadJokesApiService.GetRandomJoke()
         {
-            var response = await httpClient.GetAsync(DAD_JOKE_API_FETCH_ENDPOINT);
-            if (response.IsSuccessStatusCode)
-            {
-                var stringResponse = await response.Content.ReadAsStringAsync();
-
-                var result = JsonSerializer.Deserialize<JokeDTO>(stringResponse,
-                    new JsonSerializerOptions() { PropertyNamingPolicy = JsonNamingPolicy.CamelCase });
-
-                return result;
-            }
-            else
-            {
-                _logger.LogInformation("Request to \"icanhazdadjoke\" Fetch a random joke API failed!");
-                throw new HttpRequestException(response.ReasonPhrase);
-            }
+            var response = await _httpRequestService.makeGETRequest(DAD_JOKE_API_FETCH_ENDPOINT);
+            var result = JsonSerializer.Deserialize<JokeDTO>(response,
+                new JsonSerializerOptions() { PropertyNamingPolicy = JsonNamingPolicy.CamelCase });
+            return result;
         }
 
         async Task<JokesSearchResultsDTO> IDadJokesApiService.SearchJokes(string query, int limit)
@@ -58,22 +38,11 @@ namespace DadJokesAPI.Service
                 {"limit", Math.Min(limit, MAX_JOKES_PER_PAGE).ToString() },
                 {"term", query }
             };
-            var response = await httpClient.GetAsync(QueryHelpers.AddQueryString(DAD_JOKE_API_SEARCH_ENDPOINT, requestQueryParams));
-
-            if (response.IsSuccessStatusCode)
-            {
-                var stringResponse = await response.Content.ReadAsStringAsync();
-
-                var result = JsonSerializer.Deserialize<JokesSearchResultsDTO>(stringResponse,
-                    new JsonSerializerOptions() { PropertyNamingPolicy = JsonNamingPolicy.CamelCase });
-
-                return result;
-            }
-            else
-            {
-                _logger.LogInformation("Request to \"icanhazdadjoke\" search API failed!");
-                throw new HttpRequestException(response.ReasonPhrase);
-            }
+            string requestUri = QueryHelpers.AddQueryString(DAD_JOKE_API_SEARCH_ENDPOINT, requestQueryParams);
+            var response = await _httpRequestService.makeGETRequest(requestUri);
+            var result = JsonSerializer.Deserialize<JokesSearchResultsDTO>(response,
+                new JsonSerializerOptions() { PropertyNamingPolicy = JsonNamingPolicy.CamelCase });
+            return result;
         }
     }
 }

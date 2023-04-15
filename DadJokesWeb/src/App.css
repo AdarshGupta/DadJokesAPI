@@ -1,0 +1,103 @@
+body {
+  border: none;
+  padding: 0 0 50px 0;
+  margin: 0;
+  background-color: #1F2124;
+  color: #FFFFF3;
+  height: auto;
+  width: auto;
+}
+
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  padding: 0px;
+  color: #00dffc;
+  margin: 40px 0 80px;
+  font-size: clamp(28px, 5vw, 60px);
+  font-family: 'Roboto Mono', monospace;
+}
+
+.search-form{
+  margin: 20px 0px 0px;
+  padding: 0px;
+}
+
+.search-term {
+  font-size: clamp(14px, 3vw, 20px);
+  border: none;
+  height: 40px;
+}
+
+.action-buttons {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 500px;
+  margin: auto;
+}
+
+button {
+  border: none;
+  border: 2px solid #D81159;
+  font-size: clamp(11px, 3vw, 20px);
+  background-color: transparent;
+  color: #D81159;
+  margin: 50px 0 0;
+  padding: 5px 10px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+button:hover {
+  background-color: #D81159;
+  color: #1F2124;
+  transition: ease-in-out 0.2s;
+  cursor: pointer;
+}
+
+.joke-results {
+  padding: 0px;
+  margin: 0px;
+}
+
+h2 {
+  padding: 0px;
+  margin: 70px 0px 20px;
+  color: #D81159;
+  font-size: clamp(20px, 2vw, 45px);
+  font-family: 'Roboto Mono', monospace;
+}
+
+.joke-card {
+  border: 2px solid #00dffc;
+  width: 200px;
+  margin: 20px auto;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.joke-card:hover {
+  background-color: #00dffc;
+  color: #1F2124;
+  transition: ease-in-out 0.2s;
+  cursor: pointer;
+}
+
+mark {
+  background-color: #D81159;
+  color: #1F2124;
+}
+
+.jokes-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 0px;
+}

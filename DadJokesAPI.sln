@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DadJokesAPI", "DadJokesAPI\DadJokesAPI.csproj", "{FA8D5FAE-3BEF-4282-BECB-09CB11F18618}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DadJokesAPI.Tests", "DadJokesAPI.Tests\DadJokesAPI.Tests.csproj", "{990DDAEE-F414-4EFD-B6C8-9F7A346427DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{FA8D5FAE-3BEF-4282-BECB-09CB11F18618}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA8D5FAE-3BEF-4282-BECB-09CB11F18618}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA8D5FAE-3BEF-4282-BECB-09CB11F18618}.Release|Any CPU.Build.0 = Release|Any CPU
+		{990DDAEE-F414-4EFD-B6C8-9F7A346427DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{990DDAEE-F414-4EFD-B6C8-9F7A346427DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{990DDAEE-F414-4EFD-B6C8-9F7A346427DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{990DDAEE-F414-4EFD-B6C8-9F7A346427DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

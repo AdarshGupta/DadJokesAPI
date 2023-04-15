@@ -3,6 +3,17 @@ using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("FrontendAccessPolicy", 
+        policy =>
+        {
+            policy.AllowAnyOrigin()
+            //WithOrigins("http://localhost:3000/")
+            .AllowAnyMethod();
+        });
+});
+
 // Add services to the container.
 builder.Services.AddControllers();
 
@@ -10,6 +21,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddSingleton<IHTTPRequestService, HTTPRequestService>();
 builder.Services.AddSingleton<IDadJokesApiService, DadJokesApiService>();
 
 var app = builder.Build();
@@ -22,6 +34,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors();
 
 app.UseAuthorization();
 

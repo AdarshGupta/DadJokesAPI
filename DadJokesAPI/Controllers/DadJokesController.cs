@@ -1,5 +1,6 @@
 using DadJokesAPI.Models;
 using DadJokesAPI.Service;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DadJokesAPI.Controllers
@@ -18,6 +19,7 @@ namespace DadJokesAPI.Controllers
             _logger = logger;
         }
 
+        [EnableCors("FrontendAccessPolicy")]
         [HttpGet(Name = "GetDadJokes")]
         public async Task<List<JokeDTO>> GetDadJokes([FromQuery]string? queryWord)
         {
