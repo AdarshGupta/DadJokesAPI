@@ -1,0 +1,153 @@
+<mxfile host="65bd71144e">
+    <diagram id="FtW30SxdtJddkggEc5hT" name="Page-1">
+        <mxGraphModel dx="1901" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="45" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;strokeColor=#000000;strokeWidth=2;fontSize=16;fontColor=#3399FF;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-40" y="40" width="1960" height="620" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=3;perimeterSpacing=0;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="80" width="500" height="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=2;fillColor=none;perimeterSpacing=0;glass=0;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="120" width="340" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;font color=&quot;#000000&quot;&gt;Fetch a Joke&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;strokeColor=#000000;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="200" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;font color=&quot;#000000&quot;&gt;Search&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;strokeColor=#000000;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="200" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.looking_glass;glass=0;sketch=0;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="127.5" width="20" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=3;perimeterSpacing=0;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="80" width="500" height="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=2;fillColor=none;perimeterSpacing=0;glass=0;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="760" y="120" width="340" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;font color=&quot;#000000&quot;&gt;Fetch a Joke&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;strokeColor=#000000;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="810" y="200" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;font color=&quot;#000000&quot;&gt;Search&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;strokeColor=#000000;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="950" y="200" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.looking_glass;glass=0;sketch=0;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="770" y="127.5" width="20" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=3;perimeterSpacing=0;" vertex="1" parent="1">
+                    <mxGeometry x="1320" y="80" width="560" height="530" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#36393d;html=1;whiteSpace=wrap;fillColor=#eeeeee;glass=0;sketch=0;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="270" width="440" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;font color=&quot;#000000&quot;&gt;Joke&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=left;spacing=20;fontSize=14;glass=0;sketch=0;strokeWidth=2;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="13">
+                    <mxGeometry width="440.00000000000006" height="40" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;font color=&quot;#000000&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;br&gt;- &lt;b style=&quot;&quot;&gt;Someone famous&lt;/b&gt; in &lt;i style=&quot;&quot;&gt;Source Title&lt;/i&gt;&lt;/font&gt;&lt;/font&gt;" style="perimeter=none;html=1;whiteSpace=wrap;resizeWidth=1;verticalAlign=top;align=left;spacing=20;spacingTop=-10;fontSize=14;shadow=0;glass=0;sketch=0;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="13">
+                    <mxGeometry width="440" height="90" relative="1" as="geometry">
+                        <mxPoint y="40" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#006EAF;shadow=0;dashed=0;shape=mxgraph.ios7.icons.pointer;glass=0;sketch=0;fontColor=#ffffff;fillColor=#1ba1e2;" vertex="1" parent="1">
+                    <mxGeometry x="800" y="220" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=2;fillColor=none;perimeterSpacing=0;glass=0;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="1430" y="120" width="340" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;font color=&quot;#000000&quot;&gt;Fetch a Joke&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;strokeColor=#000000;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1480" y="200" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;font color=&quot;#000000&quot;&gt;Search&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;strokeColor=#000000;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1620" y="200" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.looking_glass;glass=0;sketch=0;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1440" y="127.5" width="20" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#36393d;html=1;whiteSpace=wrap;fillColor=#eeeeee;glass=0;sketch=0;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="1350" y="310" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;font color=&quot;#000000&quot;&gt;Joke 1&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=left;spacing=20;fontSize=14;glass=0;sketch=0;strokeWidth=2;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="22">
+                    <mxGeometry width="160.00000000000003" height="40" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#3399ff&quot;&gt;Lorem &lt;/font&gt;&lt;/b&gt;&lt;font color=&quot;#000000&quot;&gt;ipsum&lt;/font&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;.&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="perimeter=none;html=1;whiteSpace=wrap;resizeWidth=1;verticalAlign=top;align=left;spacing=20;spacingTop=-10;fontSize=14;shadow=0;glass=0;sketch=0;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="22">
+                    <mxGeometry width="160" height="90" relative="1" as="geometry">
+                        <mxPoint y="40" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#006EAF;shadow=0;dashed=0;shape=mxgraph.ios7.icons.pointer;glass=0;sketch=0;fontColor=#ffffff;fillColor=#1ba1e2;" vertex="1" parent="1">
+                    <mxGeometry x="1620" y="220" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#36393d;html=1;whiteSpace=wrap;fillColor=#eeeeee;glass=0;sketch=0;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="1520" y="310" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="&lt;font color=&quot;#000000&quot;&gt;Joke 3&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=left;spacing=20;fontSize=14;glass=0;sketch=0;strokeWidth=2;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="26">
+                    <mxGeometry width="160.00000000000003" height="40" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#3399ff&quot;&gt;Lorem &lt;/font&gt;&lt;/b&gt;&lt;font color=&quot;#000000&quot;&gt;ipsum dolor sit amet&lt;/font&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;.&lt;/span&gt;" style="perimeter=none;html=1;whiteSpace=wrap;resizeWidth=1;verticalAlign=top;align=left;spacing=20;spacingTop=-10;fontSize=14;shadow=0;glass=0;sketch=0;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="26">
+                    <mxGeometry width="160" height="90" relative="1" as="geometry">
+                        <mxPoint y="40" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#36393d;html=1;whiteSpace=wrap;fillColor=#eeeeee;glass=0;sketch=0;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="1690" y="310" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="&lt;font color=&quot;#000000&quot;&gt;Joke 5&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=left;spacing=20;fontSize=14;glass=0;sketch=0;strokeWidth=2;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="29">
+                    <mxGeometry width="160.00000000000003" height="40" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="&lt;b&gt;&lt;font color=&quot;#3399ff&quot;&gt;Lorem&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;font color=&quot;#000000&quot;&gt;ipsum dolor sit amet&lt;/font&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;, consectetur adipiscing elit.&lt;/span&gt;" style="perimeter=none;html=1;whiteSpace=wrap;resizeWidth=1;verticalAlign=top;align=left;spacing=20;spacingTop=-10;fontSize=14;shadow=0;glass=0;sketch=0;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="29">
+                    <mxGeometry width="160" height="90" relative="1" as="geometry">
+                        <mxPoint y="40" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#36393d;html=1;whiteSpace=wrap;fillColor=#eeeeee;glass=0;sketch=0;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="1350" y="454" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="&lt;font color=&quot;#000000&quot;&gt;Joke 2&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=left;spacing=20;fontSize=14;glass=0;sketch=0;strokeWidth=2;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="32">
+                    <mxGeometry width="160.00000000000003" height="40" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="&lt;b&gt;&lt;font color=&quot;#3399ff&quot;&gt;Lorem&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;font color=&quot;#000000&quot;&gt;ipsum.&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="perimeter=none;html=1;whiteSpace=wrap;resizeWidth=1;verticalAlign=top;align=left;spacing=20;spacingTop=-10;fontSize=14;shadow=0;glass=0;sketch=0;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="32">
+                    <mxGeometry width="160" height="90" relative="1" as="geometry">
+                        <mxPoint y="40" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#36393d;html=1;whiteSpace=wrap;fillColor=#eeeeee;glass=0;sketch=0;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="1520" y="454" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="&lt;font color=&quot;#000000&quot;&gt;Joke 4&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=left;spacing=20;fontSize=14;glass=0;sketch=0;strokeWidth=2;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="35">
+                    <mxGeometry width="160.00000000000003" height="40" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="&lt;b&gt;&lt;font color=&quot;#3399ff&quot;&gt;Lorem&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;font color=&quot;#000000&quot;&gt;ipsum dolor sit amet&lt;/font&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;.&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="perimeter=none;html=1;whiteSpace=wrap;resizeWidth=1;verticalAlign=top;align=left;spacing=20;spacingTop=-10;fontSize=14;shadow=0;glass=0;sketch=0;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="35">
+                    <mxGeometry width="160" height="90" relative="1" as="geometry">
+                        <mxPoint y="40" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#36393d;html=1;whiteSpace=wrap;fillColor=#eeeeee;glass=0;sketch=0;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="1690" y="454" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="&lt;font color=&quot;#000000&quot;&gt;Joke 6&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=left;spacing=20;fontSize=14;glass=0;sketch=0;strokeWidth=2;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="38">
+                    <mxGeometry width="160.00000000000003" height="40" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="&lt;b&gt;&lt;font color=&quot;#3399ff&quot;&gt;Lorem&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;font color=&quot;#000000&quot;&gt;ipsum dolor sit amet&lt;/font&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;, consectetur adipiscing elit.&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="perimeter=none;html=1;whiteSpace=wrap;resizeWidth=1;verticalAlign=top;align=left;spacing=20;spacingTop=-10;fontSize=14;shadow=0;glass=0;sketch=0;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="38">
+                    <mxGeometry width="160" height="90" relative="1" as="geometry">
+                        <mxPoint y="40" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Small&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="1395" y="270" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Medium&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="1560" y="270" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Long&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="1740" y="270" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="Lorem" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="1460" y="125" width="70" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
